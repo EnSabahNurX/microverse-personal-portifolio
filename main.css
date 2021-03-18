@@ -1,0 +1,55 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+#welcome-section {
+  height:100vh;
+  margin-top: 100%;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  font-size: 30px;
+}
+p{
+  font-size: 15px;
+}
+#navbar{
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 8;
+  background-color: #202e9e;
+  display: flex;
+  justify-content:flex-end;
+  height: 5vh;
+  align-items: center;
+}
+
+li a{
+  color:white;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+ @media screen and (max-width: 600px) {
+   .project-tile img{
+    width : 100%;
+  }
+  [class*="col-"] {
+   width: 100%;
+ }
+}

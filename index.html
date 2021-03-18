@@ -7,13 +7,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+   <style>
+  @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}</style>
 </head>
 
 <body>
   <nav id="navbar">
-    <li><a href="#" target="_blank">About</a></li>
-    <li><a href="#" target="_blank">Work</a></li>
-    <li><a href="#" target="_blank">Contact</a></li>
+    <li><a class="nav-link" href="#projects">About</a></li>
+    <li><a class="nav-link" href="#projects">Work</a></li>
+    <li><a class="nav-link" href="#projects">Contacts</a></li>
+
   </nav>
   <header>
     <div id="welcome-section">
@@ -23,26 +31,28 @@
       <p>a web developer</p>
     </div>
   </header>
-  <section>
-    <div id="projects">
+  <section id="projects">
+    <div class="project-tile">
       <p id="projects-title">The are some of projects</p>
     </div>
     <div class="project-tile">
       <img src="https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg" alt="Tribute page picture">
       <a href="https://codepen.io/freeCodeCamp/full/zNqgVx">Tribute Page</a>
     </div>
+
   </section>
   <section>
     <h1>Let's work together...</h1>
     <p>How do you take your coffe?</p>
     <div class="links">
-      <a id="profile-link" href="http://github.com">GitHub</a>
+      <a id="profile-link" href="http://github.com" target="_blank">GitHub</a>
       <a href="http://facebook.com">Facebook</a>
       <a href="http://twitter.com">Twitter</a>
       <a href="http://gmail.com">Send a mail</a>
       <a href="phone://971544271828">Call me</a>
     </div>
   </section>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>
